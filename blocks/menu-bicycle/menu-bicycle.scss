@@ -3,7 +3,7 @@
   &__list {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: stretch;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
   }
   &__item {
     box-sizing: border-box;
-    margin: 0 0 7px 40px;
+    margin: 0 0 0 40px;
   }
   &__button {
     text-decoration: none;
@@ -20,13 +20,14 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
+    margin: 26px 0 0 0;
     border: none;
     background: transparent;
     transition: all 0.3s linear;
     cursor: pointer;
+    padding: 0;
     &_active {
       opacity: 1;
-      font-size: 19px;
       &:hover {
         opacity: 0.6;
       }

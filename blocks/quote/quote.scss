@@ -1,5 +1,8 @@
 .quote {
-  margin: 120px 0 0 0;
+  box-sizing: border-box;
+  margin: 120px auto 0;
+  padding: 0 120px;
+  width: 1440px;
   &__figure {
     margin: 0;
     display: flex;

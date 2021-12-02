@@ -3,7 +3,8 @@
   display: flex;
   margin: 122px auto 0;
   width: 1440px;
-  height: 862px;
+  min-height: 862px;
+  position: relative;
   &__wrapper {
     position: relative;
     display: flex;
@@ -22,4 +23,17 @@
   &__item {
     overflow: hidden;
   }
+  &__label{
+    box-sizing: border-box;
+    padding: 12px 0 12px 16px;
+    position: absolute;
+    background-image: url(../images/rectrangle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 40px;
+    left: -1px;
+    bottom: 16px;
+  }
+
 }

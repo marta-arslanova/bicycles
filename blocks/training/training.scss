@@ -1,15 +1,17 @@
 .training {
   box-sizing: border-box;
   margin: 132px auto 120px auto;
+  padding: 0 120px;
   width: 1440px;
-  height: 460px;
+  min-height: 460px;
   background-image: url(../images/training_bg.jpg);
-  background-position: bottom 0 right 120px;
+  background-position: bottom right ;
   background-repeat: no-repeat;
   background-origin: content-box;
   &__description {
+    box-sizing: border-box;
     margin: 46px 0 0 0;
-    width: 460px;
+    width: 438px;
   }
   &__wrapper {
     margin: 182px 0 0 0;

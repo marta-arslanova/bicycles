@@ -1,6 +1,8 @@
 .bicycles {
   box-sizing: border-box;
-  padding: 60px 0 60px 0;
+  padding: 60px 120px 60px 120px;
+  margin: 0 auto;
+  width: 1440px;
   &__header {
     display: flex;
     justify-content: space-between;

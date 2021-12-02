@@ -1,5 +1,9 @@
 .menu {
+  box-sizing: border-box;
   display: block;
+  margin: 0 auto;
+  padding: 0 120px 0 0;
+  width: 1440px;
   height: 74px;
   &__list {
     display: flex;
@@ -23,6 +27,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+    text-align: right;
     transition: all 0.2s linear;
   }
   &__link:hover {

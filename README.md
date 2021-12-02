@@ -9,12 +9,3 @@
 
 [Ссылка на preview](https://marta-arslanova.github.io/bicycles/index.html)  
 [Ссылка на макет Figma](https://www.figma.com/file/jYZugDhi9BW8dWxgsZYuoU/Month-of-Landings)  
-
-
-<!-- Комментарии к ревьюеру --
-Будут дополнены следующие моменты, ко 2-й итерации:
-Адаптация под мобильные устройства, которой нет.
-Анимация кнопки с классом .promo__button.
-Доработан инпут отправки email.
-Переключение на темную тему
--->
