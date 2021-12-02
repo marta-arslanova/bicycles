@@ -1,0 +1,9 @@
+.page {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  background-color: $gray-primary;
+  color: $dark-primary;
+  @include font-base;
+}
