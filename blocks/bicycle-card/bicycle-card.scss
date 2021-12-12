@@ -32,11 +32,42 @@
     opacity: 0.7;
     transform: scale(1.01);
   }
+  &__buttons {
+    margin: 20px 0 0 0;
+    display: none;
+    // height: 4px;
+  }
+  &__button {
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    margin: 0 5px;
+    background: #cacaca;
+    cursor: pointer;
+    &_active {
+      background: #151515;
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .bicycle-card {
+    filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
     &__description {
       text-align: center;
+    }
+    &__second {
+      display: none;
+    }
+    &__third {
+      display: none;
+    }
+    &__buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

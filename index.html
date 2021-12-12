@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="pages/index.min.css" />
   </head>
   <body class="page">
-    <header class="header">
+     <header class="header">
       <nav class="menu">
         <button class="menu__burger"></button>
         <ul class="menu__list">
@@ -87,6 +87,7 @@
               <div class="track__wrapper">
                 <div class="track__label">
                   <img class="track__label-icon" src="images/tt.svg" alt="иконка лэйбла" />
+
                 </div>
                 <img class="track__image" src="images/gravel-track.jpg" alt="Фото трассы" />
                 <img class="track__image track__image-second" src="images/highway.jpg" alt="Фото трассы" />
@@ -96,9 +97,9 @@
         </div>
         <button class="swiper-button swiper-button-prev" type="button"></button>
         <button class="swiper-button swiper-button-next" type="button"></button>
-      </section>
+      </section> 
 
-      <!-- <section class="bicycles" id="bicycle">
+      <section class="bicycles" id="bicycle">
         <div class="bicycles__header">
           <h2 class="title bicycles__title">Велосипеды</h2>
 
@@ -130,32 +131,36 @@
             </ul>
           </select>
         </div>
-        <div class="bicycles__wrapper"></div>
-        <div class="bicycles__swipper swipper">
-          <div class="bicycles__wrapper swiper-wrapper">
-            <a class="swiper-slide bicycle-card" target="_blank" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN">
+        <div class="bicycles__swipper">
+          <div class="bicycles__wrapper">
+            <a class="bicycle-card bicycle-card__first" target="_blank" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN">
               <div class="bicycle-card__wrapper">
                 <img class="bicycle-card__image" src="images/CerveloCaledonia-5.png" alt="Модель велосипеда" />
               </div>
               <p class="bicycle-card__description">Cervelo Caledonia-5</p>
             </a>
 
-            <a class="swiper-slide bicycle-card" target="_blank" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">
+            <a class="bicycle-card bicycle-card__second" target="_blank" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">
               <div class="bicycle-card__wrapper">
                 <img class="bicycle-card__image" src="images/CannondaleSystemsixHimod.png" alt="Модель велосипеда" />
               </div>
               <p class="bicycle-card__description">Cannondale Systemsix Himod</p>
             </a>
 
-            <a class="swiper-slide bicycle-card" target="_blank" href=" https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">
+            <a class="bicycle-card bicycle-card__third" target="_blank" href=" https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">
               <div class="bicycle-card__wrapper">
                 <img class="bicycle-card__image" src="images/TrekDomaneSL-7.png" alt="Модель велосипеда" />
               </div>
               <p class="bicycle-card__description">Trek Domane SL-7</p>
             </a>
           </div>
+          <div class="bicycle-card__buttons">
+            <button class="bicycle-card__button bicycle-card__button_active"></button>
+            <button class="bicycle-card__button"></button>
+            <button class="bicycle-card__button"></button>
+          </div>
         </div>
-      </section> -->
+      </section>
 
       <section class="training" id="training">
         <h2 class="title training__title">Тренировки</h2>
@@ -192,8 +197,8 @@
           </div>
         </div>
       </div>
-    </footer>
-
+    </footer> 
+<!-- 
     <template id="figure">
       <figure class="bicycle-card">
         <div class="bicycle-card__wrapper">
@@ -203,7 +208,7 @@
           <a class="bicycle-card__link" href="" target="_blank"></a>
         </figcaption>
       </figure>
-    </template>
+    </template> -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="scripts/index.js"></script>
   </body>
